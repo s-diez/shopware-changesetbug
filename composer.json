@@ -1,0 +1,21 @@
+{
+    "name": "s-diez/changesetbug",
+    "description": "ChangeSetBug",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ChangeSetBug\\": "src/"
+        }
+    },
+    "require": {
+        "shopware/core": "6.3.0.1"
+    },
+    "extra": {
+        "shopware-plugin-class": "ChangeSetBug\\ChangeSetBug",
+        "label": {
+            "de-DE": "ChangeSetBug",
+            "en-GB": "ChangeSetBug"
+        }
+    }
+}
