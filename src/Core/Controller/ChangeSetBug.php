@@ -7,7 +7,6 @@ use Shopware\Core\Framework\Api\Response\JsonApiResponse;
 use Shopware\Core\Framework\Context;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityRepositoryInterface;
 use Shopware\Core\Framework\DataAbstractionLayer\Search\Criteria;
-use Shopware\Core\Framework\DataAbstractionLayer\Search\Filter\EqualsAnyFilter;
 use Shopware\Core\Framework\Routing\Annotation\RouteScope;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
@@ -31,7 +30,7 @@ class ChangeSetBug extends AbstractController
     }
 
     /**
-     * @Route("/api/v{version}/_action/changesetbug/test", name="api.action.changesetbug.test", defaults={"auth_required"=false}, methods={"GET"})
+     * @Route("/api/_action/changesetbug/test", name="api.action.changesetbug.test", defaults={"auth_required"=false}, methods={"GET"})
      * @param Context $context
      * @return JsonApiResponse
      */

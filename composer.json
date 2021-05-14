@@ -9,7 +9,7 @@
         }
     },
     "require": {
-        "shopware/core": "6.3.0.1"
+        "shopware/core": "6.4.0.0"
     },
     "extra": {
         "shopware-plugin-class": "ChangeSetBug\\ChangeSetBug",

@@ -12,6 +12,9 @@
 
         <service id="ChangeSetBug\Core\Controller\ChangeSetBug" public="true">
             <argument type="service" id="product.repository" />
+            <call method="setContainer">
+                <argument type="service" id="service_container"/>
+            </call>
         </service>
     </services>
 </container>
